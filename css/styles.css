@@ -106,6 +106,10 @@ ul {list-style-type: none;
 
 .hero-image {
     background-color: #2E2F42;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), url(/images/hero-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     padding-top: 188px;
     padding-bottom: 188px;
 }
@@ -175,7 +179,8 @@ ul {list-style-type: none;
 }
 
 .section-one-paragraph-title {
-    font-size: 16px;
+    font-size: 20px;
+    font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
     margin-bottom: 8px;
@@ -214,6 +219,7 @@ ul {list-style-type: none;
     background-color: #FFFFFF;
     max-width: 264px;
     max-height: 380px;
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
 .page-footer {
@@ -239,6 +245,12 @@ ul {list-style-type: none;
 
 .section-three-list {
     background-color: #FFFFFF;
+}
+
+.section-three-list-li:hover {
+box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
 .page-footer {
