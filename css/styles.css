@@ -447,9 +447,11 @@ background-color: #404BBF;
     padding-top: 40px;
 }
 
-.menu-nav::after {
+.menu-nav li:first-child::after {
     content: "";
     width: 48px;
     height: 4px;
-    color: #404BBF;
+    background-color: #404BBF;
+    border-radius: 2px;
+    display: block;
 }
