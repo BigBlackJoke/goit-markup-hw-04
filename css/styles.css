@@ -403,18 +403,14 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    padding-bottom: 16px;
+    margin-bottom: 16px;
 }
 
 .footer-social {
-    position: relative;
-    left: 540px;
-    bottom: 132px; 
+    display: flex;
+    align-items: baseline;
 }
 
-.footer-icon-border-list {
-    justify-content: flex-start;
-}
 
 .s-two-icon-link:hover,
 .s-two-icon-link:focus {
@@ -452,7 +448,7 @@ background-color: #404BBF;
     transform: translateY(100%);
 }
 
-.section-three-list-li:hover .overlay {
+.section-three-list-li:hover .overlay-text {
     transform: translateY(0%);
 }
 
@@ -470,4 +466,8 @@ background-color: #404BBF;
 
 .menu-nav-link.current {
     color: #404BBF;
+}
+
+.footer-logo-and-p {
+    margin-right: 120px;
 }
