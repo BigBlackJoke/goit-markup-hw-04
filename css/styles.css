@@ -474,4 +474,9 @@ background-color: #404BBF;
 
 .footer-container {
     display: flex;
+    align-items: baseline;
+}
+
+.footer-icon-link {
+    gap: 16px;
 }
